@@ -1,0 +1,55 @@
+[debug] [2024-04-18T02:33:40.353Z] ----------------------------------------------------------------------
+[debug] [2024-04-18T02:33:40.355Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Yusuf\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-04-18T02:33:40.356Z] CLI Version:   13.7.3
+[debug] [2024-04-18T02:33:40.356Z] Platform:      win32
+[debug] [2024-04-18T02:33:40.356Z] Node Version:  v20.9.0
+[debug] [2024-04-18T02:33:40.356Z] Time:          Wed Apr 17 2024 20:33:40 GMT-0600 (Mountain Daylight Time)
+[debug] [2024-04-18T02:33:40.356Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-18T02:33:40.361Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-18T02:33:40.361Z] > authorizing via signed-in user (y.qazi12@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Yusuf\Documents\email_automation\webscrape
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-18T02:33:44.515Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-04-18T02:33:44.998Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-04-18T02:33:44.998Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project privacy-f4e37 (Privacy) 
+[info] 
+=== Hosting Setup
+[debug] [2024-04-18T02:33:46.316Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/privacy-f4e37 [none]
+[debug] [2024-04-18T02:33:46.498Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/privacy-f4e37 200
+[debug] [2024-04-18T02:33:46.499Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/privacy-f4e37 {"projectId":"privacy-f4e37","projectNumber":"633438930130","displayName":"Privacy","name":"projects/privacy-f4e37","resources":{"hostingSite":"privacy-f4e37"},"state":"ACTIVE","etag":"1_8de20dc6-b5cc-46cd-bd7a-3b29bfaa0bb0"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-04-18T02:34:00.031Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-04-18T02:34:00.279Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-04-18T02:34:00.279Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.11.0","browserURL":"https://www.gstatic.com/firebasejs/10.11.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.11.0/firebase.tgz"},"live":{"version":"10.11","browserURL":"https://www.gstatic.com/firebasejs/live/10.11/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.11/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.11.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.11.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.11.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.11.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.11.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.11.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.11.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.11.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.11.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.11.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.11.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.11.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore.memory.js"}}
+[debug] [2024-04-18T02:34:00.463Z] Error: ENOTDIR: not a directory, scandir 'C:\Users\Yusuf\Documents\email_automation\webscrape\index.html'
+    at Object.readdirSync (node:fs:1513:3)
+    at Object.createFileSync (C:\Users\Yusuf\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:55:10)
+    at Config.writeProjectFile (C:\Users\Yusuf\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:154:12)
+    at C:\Users\Yusuf\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:178:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async doSetup (C:\Users\Yusuf\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:177:9)
+    at async init (C:\Users\Yusuf\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:37:9)
+[error] 
+[error] Error: An unexpected error has occurred.
